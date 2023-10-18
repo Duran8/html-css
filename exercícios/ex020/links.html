@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+            #  =  id
+            .  =  class
+            :  =  pseudo-clas
+            :: =  pseudo-element
+            >  =  clildren(que seria "filho" da tag na frente)
+        
+        */
+        
+        h1{
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        p{
+            text-align: justify;
+            font-size: 0.8em;
+            text-indent: 20px;
+            
+            
+        }
+
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: azure;
+        }
+        a {
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+
+        a:visited{
+            color: darkmagenta;
+        }
+        
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color:yellow;
+        }
+
+        .especial::after{
+            content: ' (link)';
+            text-decoration: none;
+            font-weight: bold;
+            color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external">Site do Curso em Vídeo</a></li>
+    </ul>
+    <p>A cima são sites que você pode acessar para verificar alguns link relacionados ao professor Gustavo Guanabara</p>
+</body>
+</html>

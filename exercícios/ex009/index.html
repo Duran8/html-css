@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhado com lista</h1>
+    <h2>Lista ordenada</h2> <!--nesse tipo de lista a ordem faz a diferença. Usamos a tag <ol>. Como uma lista de bolo-->
+    
+        <ol><!--temos o type, que vai dar opções de modificar. Temos os tipos 1, A, a, i, I-->
+        <li>Acorda</li>
+        <li>tomar café</li>
+        <li>escovar os dentes</li>
+        <li>se alongar</li>
+    </ol>
+        <ol type="I">
+
+        <li>Acorda</li>
+        <li>tomar café</li>
+        <li>escovar os dentes</li>
+        <li>se alongar</li>
+    </ol>
+    </ol>
+
+        <ol type="I" start="5"><!--com a tag start vou escolher de onde minha lista começa-->
+        <li>Acorda</li>
+        <li>tomar café</li>
+        <li>escovar os dentes</li>
+        <li>se alongar</li>    
+    </ol>
+    <h2>Lista Não Ordenada</h2><!--Usando esse tipo de lista a ordem não tem diferença. Usamos a tag <ul>. Como uma lista de mercado-->
+        
+        <ul type="Circle"><!--Tnhos três tipos, disc, circle e square-->
+            <li>Pão</li>
+            <li>Mandeiga</li>
+            <li>Leite</li>
+            <li>Arroz</li>
+            <li>café</li>
+        </ul>
+        <h2>Juntando listas: Minhas linguagem favoritas</h2>
+        <ol>
+            <li>Antigas</li>
+            <ol type="I"> <!--São linguagem do Guanabara-->
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+            </ol>
+            <li>Novas</li>
+            <ol type="I" start="4"><!--Também linguagem do professor-->
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kodlin</li>
+            </ol>
+        </ol>
+        <h2>Meus Jogos favoritos</h2>
+        <ol>
+            <li>PS2</li>
+            <ul type="disc" >
+                <li>MORTAL COMBAT</li>
+                <li>BOMBA PAT</li>
+            </ul>
+            <li>PS4</li>
+            <ul type="disc" >
+                <li>FIFA15</li>
+                <li>GTA </li>
+                 <ol>
+                    <LI>GTA SAN ANDREA</LI>
+                    <li>GTA V</li>
+                 </ol>
+            </ul>
+            <li>PC</li>
+            <ul type= "disc" >
+                <li>CLICK JOGOS</li>
+                <li>GTA</li>
+                <ol>
+                <li>GTA SAN ANDREAS</li>
+                    <li>GTA V</li>
+                 </ol>
+            </ul>
+        </ol>
+        <h2>Lista de Definições</h2>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de um site.</dd>
+        <dt>CSS3</dt>
+        <dd>Linguagem de marcação para criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Liguagem de programação para a criação de interatividade de um site.</dd>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    
+    <p>Outro exemplo que podemos usar seria o canal do Youtube do 
+        <a href="https://www.youtube.com/@CursoemVideo">Curso em Vídeo</a>
+    </p>
+    
+    <p>
+        Vamos usar de exemplo o site do       <a href="https://github.com/gustavoguanabara" 
+        target="_blank" rel="external"> GitHub</a> do curso em vídeo
+    </p><!--Com a tag "target" e "real", vou conseguir fazer abri uma nova aba. Recomendado para links externos-->
+    
+    <h1>Usando links internos</h1><!--Recomendado usar a função target="_self" para quando link for da miha página e não um link externo-->
+    
+    <p>
+        Essa seria a primeria página do site e consigo acessar o segunda por meio de uma âncora:<a href="pg002.html" 
+        rel="next" target="_self"> Clink aqui                                                   </a>
+    </p>
+    
+    <p>
+        Agora vamos acessar um link por meio de uma âncora, mas dessa vez em outra pasta: <a href="noticias/pg003.html" 
+        rel="next" target="_self">Click aqui                                              </a>
+    </p>
+
+    <h1>Links para download</h1>
+        <ul>
+            
+            <li>
+
+                <a href="livro/10 - Ligações em toda parte.pdf" 
+                download="10 - Ligações em toda parte.pdf" 
+                type="application/pdf"> Baixar livro em PDF 
+                </a> 
+                
+            </li>
+            <li>
+                
+                <a href="livro/10 - Ligações em toda parte.pdf" 
+                download="10 - Ligações em toda parte.pdf" 
+                type="application/zip"> 
+                <abbr title="Somente PDF kkk">Baixar livro em ZIP</abbr>
+                </a>
+        
+            </li>
+
+        </ul>           
+
+</body>
+</html> 

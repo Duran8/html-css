@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <H1>Imagens dinâmicas</H1>
+    <p>Vamos tentar abrir esse site em vários dispositivos diferentes ou simplesmente aumentar e diminuir o tamanho do navegador.</p>
+
+    <picture>
+        
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    
+    </picture>
+    
+    <h1>Vamos adicionar audio ao site</h1>
+    <p>Agora vamos adicionar um aúdio que ira tocar no meu site, uma musica do youtube mesmo</p>
+    <audio src="midias/Leslie's Strut (Sting) - John Deley and the 41 Players.mp3"  controls 
+    autoplay> </audio>
+</body>
+</html>
